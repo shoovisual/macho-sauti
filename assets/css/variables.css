@@ -1,0 +1,61 @@
+/**
+* Template Name: HeroBiz
+* File: variables.css
+* Description: Easily customize colors, typography, and other repetitive properties used in the template main stylesheet file main.css
+* 
+* Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+* 
+* Contents:
+* 1. HeroBiz template variables 
+* 2. Override default Bootstrap variables
+* 3. Set color and background class names
+*
+* Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+*/
+
+/*--------------------------------------------------------------
+# 1. HeroBiz template variables 
+--------------------------------------------------------------*/
+:root {
+    /* Fonts */
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Montserrat", sans-serif;
+
+    /* Colors */
+
+    /* Defult links color */
+    --color-links: #0ea2bd;
+    --color-links-hover: #1ec3e0;
+    --color-white: #fff;
+    /* Primay colors */
+    --color-primary: #006134;
+    --color-primary-light: #5db68c;
+    --color-primary-dark: #02502d;
+
+    --color-primary-rgb: 14, 162, 189;
+    --color-primary-light-rgb: 30, 195, 224;
+    --color-primary-dark-rgb: 1, 137, 161;
+
+    /* Secondary colors */
+    --color-secondary: #485664;
+    --color-secondary-light: #8f9fae;
+    --color-secondary-dark: #3a4753;
+
+    /* Other color */
+    --other-color: #ffde0b;
+
+    --color-secondary-rgb: 72, 86, 100;
+    --color-secondary-light-rgb: 143, 159, 174;
+    --color-secondary-dark-rgb: 58, 71, 83;
+}
+
+.bg-primary-color {
+    background-color: var(--color-primary);
+}
+
+.float-right {
+    float: right;
+    text-align: right;
+}
