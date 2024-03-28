@@ -2505,6 +2505,11 @@ section {
     font-size: 14px;
 }
 
+/* Button switch language  */
+.switch-lang select {
+    border: none;
+    padding: 5px 7px;
+}
 /* Blog Post btn */
 .blog-btn a {
     font-size: 14px;
